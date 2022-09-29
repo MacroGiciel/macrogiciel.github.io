@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmacrogiciel=self.webpackChunkmacrogiciel||[]).push([[589],{6973:a=>{a.exports=JSON.parse('{"label":"macrogiciel","permalink":"/blog/tags/macrogiciel","allTagsPath":"/blog/tags","count":1}')}}]);
