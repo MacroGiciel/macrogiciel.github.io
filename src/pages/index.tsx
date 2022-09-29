@@ -17,8 +17,16 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
+            to="https://github.com/MacroGiciel/MacroGiciel/releases">
+            Download for Windows
+            <svg className={styles.featureSvg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" style={{'fill': '#2196f3'}}>
+              <path d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z"/>
+            </svg>
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Macrogiciel Tutorial - 5min ⏱️
           </Link>
         </div>
       </div>
@@ -30,7 +38,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Accueil`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>

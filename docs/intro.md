@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Découvrons **Macrogiciel en moins de 5 minutes**.
 
-## Getting Started
 
-Get started by **creating a new site**.
+## Commencer
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Commencez par **crée un nouveau dossier**.
 
-### What you'll need
+Ou **essayez Macrogiciel immédiatement** en clonant **[ce repo github](https://github.com/MacroGiciel/ModuleKit)**.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Prérequis
 
-## Generate a new site
+- [Node.js](https://nodejs.org/en/download/) version 16.14 ou au-dessus:
+  - Lors de l'installation de Node.js, il est recommandé de cocher toutes les cases liées aux dépendances.
 
-Generate a new Docusaurus site using the **classic template**.
+## Crée un nouveau module
 
-The classic template will automatically be added to your project after you run the command:
+Commencé par crée un **nouveau dossier** et ouvrer un **invite de commande**.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
+Puis lancé la commande qui suit :
 
 ```bash
-cd my-website
-npm run start
+npm init
 ```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Vous pouvez taper cette commande dans l'invite de commande, Powershell, Terminal ou tout autre terminal intégré de votre éditeur de code.

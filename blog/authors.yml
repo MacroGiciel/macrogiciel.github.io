@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+tetsuyuki:
+  name: Tai Tetsuyuki
+  title: Developper
+  url: https://tai-studio.netlify.app
+  image_url: https://dam.malt.com/tzare340gy6a0elpq6ai?gravity=face&func=crop&w=72&h=72&q=90
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+taistudio:
+  name: Tai Studio
+  title: The Studio
+  url: https://tai-studio.netlify.app
+  image_url: https://tai-studio.netlify.app/img/logo/Tai_Studio.png

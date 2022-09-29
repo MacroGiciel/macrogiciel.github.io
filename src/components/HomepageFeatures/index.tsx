@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Facile à utiliser',
+    Svg: require('@site/static/img/old/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Macrogiciel a été conçu dès le départ pour être facilement installé
+        et utilisé.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Modulable',
+    Svg: require('@site/static/img/old/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
+        Extend or customize your website layout by reusing React. Macrogiciel can
         be extended while reusing the same header and footer.
+      </>
+    ),
+  },
+  {
+    title: 'Pour tous',
+    Svg: require('@site/static/img/old/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Macrogiciel lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
