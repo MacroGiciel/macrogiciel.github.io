@@ -26,7 +26,12 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Macrogiciel Tutorial - 5min ⏱️
+            Tutorial - 5min ⏱️
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://6rclj5sugxe.typeform.com/to/udpT86qs">
+            Beta Tester 👾
           </Link>
         </div>
       </div>
