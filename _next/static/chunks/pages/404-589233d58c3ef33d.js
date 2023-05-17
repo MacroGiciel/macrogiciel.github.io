@@ -1,0 +1,9 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[197],{394:function(e,t,n){(window.__NEXT_P=window.__NEXT_P||[]).push(["/404",function(){return n(3205)}])},3205:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return i}});var r=n(1844),s=n(9008),o=n.n(s);function i(){return(0,r.jsxs)("div",{className:"bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center",children:[(0,r.jsxs)(o(),{children:[(0,r.jsx)("title",{children:"404 Not Found"}),(0,r.jsx)("link",{rel:"stylesheet",href:"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"})]}),(0,r.jsx)("h1",{className:"text-4xl font-bold mb-4",children:"404 Not Found"}),(0,r.jsx)("p",{className:"text-lg mb-8",children:"Oops! The page you're looking for doesn't exist."}),(0,r.jsx)("a",{href:"/",className:"bg-purple-500 text-white px-6 py-3 rounded-lg hover:bg-purple-600 transition-colors",children:"Go to Home"})]})}},9803:function(e,t,n){"use strict";/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */var r=n(5784),s=Symbol.for("react.element"),o=(Symbol.for("react.fragment"),Object.prototype.hasOwnProperty),i=r.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,l={key:!0,ref:!0,__self:!0,__source:!0};function c(e,t,n){var r,c={},u=null,f=null;for(r in void 0!==n&&(u=""+n),void 0!==t.key&&(u=""+t.key),void 0!==t.ref&&(f=t.ref),t)o.call(t,r)&&!l.hasOwnProperty(r)&&(c[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps)void 0===c[r]&&(c[r]=t[r]);return{$$typeof:s,type:e,key:u,ref:f,props:c,_owner:i.current}}t.jsx=c,t.jsxs=c},1844:function(e,t,n){"use strict";e.exports=n(9803)},9008:function(e,t,n){e.exports=n(8316)}},function(e){e.O(0,[888,179],function(){return e(e.s=394)}),_N_E=e.O()}]);
