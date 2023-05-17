@@ -11,7 +11,7 @@
         <item>
             <title><![CDATA[Bienvenue]]></title>
             <link>https://macrogiciel.github.io/blog/welcome</link>
-            <guid>welcome</guid>
+            <guid>https://macrogiciel.github.io/blog/welcome</guid>
             <pubDate>Thu, 29 Sep 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
             <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p><p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p><p>Regular blog authors can be added to <code>authors.yml</code>.</p><p>The blog post date can be extracted from filenames, such as:</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul><p>A blog post folder can be convenient to co-locate blog post images:</p><p><img loading="lazy" alt="Macrogiciel animated" src="/assets/images/Macrogiciel-7c3789e66951736ad7d215088435f3ec.gif" width="480" height="320" class="img_ev3q"></p>]]></content:encoded>

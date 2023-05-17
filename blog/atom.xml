@@ -9,7 +9,7 @@
     <icon>https://macrogiciel.github.io/img/icon_512x512.png</icon>
     <entry>
         <title type="html"><![CDATA[Bienvenue]]></title>
-        <id>welcome</id>
+        <id>https://macrogiciel.github.io/blog/welcome</id>
         <link href="https://macrogiciel.github.io/blog/welcome"/>
         <updated>2022-09-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></summary>
