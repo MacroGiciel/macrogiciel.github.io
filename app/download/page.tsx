@@ -39,7 +39,7 @@ export default function Download() {
                                 <a href="/#modules">Modules</a>
                             </li>
                             <li>
-                                <a href="/#download">Download</a>
+                                <a href="#">Download</a>
                             </li>
                             <li>
                                 <a href="/docs">Documentation</a>
