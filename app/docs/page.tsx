@@ -19,7 +19,6 @@ export default function Docs() {
                     href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
                 />
             </Head>
-
             {/* Header Section */}
             <header className="bg-purple-900 text-white py-4">
                 <div className="container mx-auto flex justify-between items-center px-4">
@@ -52,8 +51,8 @@ export default function Docs() {
             <section id="getting-started" className="py-10">
                 <div className="container mx-auto">
                     <h2 className="text-2xl font-bold mb-4">Getting Started</h2>
-                    <p>Let's discover Macrogiciel in less than 5 minutes.</p>
-                    {/* Documentation content goes here */}
+                    <p>Discover Macrogiciel in less than 5 minutes.</p>
+                    {/* Documentation content */}
                 </div>
             </section>
 
@@ -62,7 +61,7 @@ export default function Docs() {
                 <div className="container mx-auto">
                     <h2 className="text-2xl font-bold mb-4">Create a Module</h2>
                     <p>Start by creating a new folder and opening a command prompt.</p>
-                    <p>Then run the following command:</p>
+                    <p>Then, run the following command:</p>
                     <pre>
                         <code className="text-white">npm init</code>
                     </pre>
@@ -72,7 +71,7 @@ export default function Docs() {
                         <code className="text-white">
                             {`{
     "name": "ModuleKit",
-    "description": "Module Kit for creating your module.",
+    "description": "Module Kit to create your module.",
     "author": "Tai Tetsuyuki",
     "version": "1.0.0",
     "license": "MIT",
@@ -80,19 +79,18 @@ export default function Docs() {
 }`}
                         </code>
                     </pre>
-                    {/* Documentation content goes here */}
+                    {/* Documentation content */}
                 </div>
             </section>
-
             {/* WebSocket Section */}
             <section id="websocket" className="py-10">
                 <div className="container mx-auto">
                     <h2 className="text-2xl font-bold mb-4">WebSocket</h2>
-                    <p>Macrogiciel integrates a web server that you can use to automate the execution of your macros.</p>
+                    <p>Macrogiciel includes a built-in web server that you can use to automate the execution of your macros.</p>
                     <p>Access the following URL to trigger a macro:</p>
                     <pre>
                         <code className="text-white">
-                            {`http://localhost:{PORT}/run/{KEYBOARDid}/{PROFILE}/{MACROID}`}
+                            {`http://localhost:{PORT}/run/{KEYBOARDID}/{PROFILE}/{MACROID}`}
                         </code>
                     </pre>
                     <p>By default, the port is set to 5755.</p>
@@ -100,7 +98,7 @@ export default function Docs() {
                     <pre>
                         <code className="text-white">http://localhost:5755/run/0/Default/360</code>
                     </pre>
-                    {/* Documentation content goes here */}
+                    {/* Documentation content */}
                 </div>
             </section>
 
@@ -108,7 +106,7 @@ export default function Docs() {
             <section id="support" className="py-10">
                 <div className="container mx-auto">
                     <h2 className="text-2xl font-bold mb-4">Need Help or Have Questions?</h2>
-                    <p>If you need any assistance or have questions about Macrogiciel, we're here to help!</p>
+                    <p>If you need help or have any questions about Macrogiciel, we're here to assist you!</p>
                     <p>Join our Discord community to connect with other users and get support from our team.</p>
                     <a
                         href="https://discord.gg/macrogiciel"
