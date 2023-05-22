@@ -1,8 +1,14 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
+interface Module {
+    name: string;
+    description: string;
+    package: string;
+}
+
 export default function ModuleList() {
-    const [moduleList, setModuleList] = useState([]);
+    const [moduleList, setModuleList] = useState<Module[]>([]);
 
     useEffect(() => {
         fetchModuleList();

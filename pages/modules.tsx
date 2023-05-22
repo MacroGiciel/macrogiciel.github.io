@@ -1,8 +1,15 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
+interface Module {
+    name: string;
+    description: string;
+    package: string;
+}
+
 export default function ModuleList() {
-    const [moduleList, setModuleList] = useState([]);
+    const [moduleList, setModuleList] = useState<Module[]>([]);
+
     useEffect(() => {
         fetchModuleList();
     }, []);
@@ -11,7 +18,7 @@ export default function ModuleList() {
         try {
             const response = await fetch('https://raw.githubusercontent.com/MacroGiciel/Extensions/main/list.json');
             const data = await response.json();
-            setModuleList(data);
+            setModuleList(Object.values(data));
         } catch (error) {
             console.error('Error fetching module list:', error);
         }
