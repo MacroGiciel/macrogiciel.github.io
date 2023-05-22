@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
@@ -52,8 +53,15 @@ export default function ModuleList() {
                         <p>Loading...</p>
                     ) : (
                         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-                            {Object.entries(moduleList).map(([key, module]) => (
-                                <li key={key} className="bg-gray-800 p-4 rounded-lg">
+                            {moduleList.map((module) => (
+                                <li key={module.package} className="bg-gray-800 p-4 rounded-lg">
+                                    <div className="flex items-center justify-center mb-4">
+                                        <img
+                                            src={`https://github.com/MacroGiciel/Extensions/raw/main/icons/${module.package}.png`}
+                                            alt={`${module.name} Logo`}
+                                            className="h-12 w-12"
+                                        />
+                                    </div>
                                     <h3 className="text-xl font-bold mb-2">{module.name}</h3>
                                     <p>{module.description}</p>
                                     <div className="mt-4">
