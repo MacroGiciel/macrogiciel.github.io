@@ -38,7 +38,7 @@ export default function ModuleList() {
             <header className="bg-purple-900 text-white py-4">
                 <div className="container mx-auto flex justify-between items-center px-4">
                     {/* Company Logo */}
-                    <a href="/en" className="text-xl font-bold">
+                    <a href="/" className="text-xl font-bold">
                         Macrogiciel
                     </a>
                 </div>
